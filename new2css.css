@@ -1,0 +1,1017 @@
+
+
+   /*   Pre loader code   */
+
+
+        #loader{
+        width: 100%;
+        height: 100vh;
+        background-color: #2f2e33;
+        position: fixed;
+        z-index: 99999;
+        margin:0px;
+        ;
+       
+        
+       }
+       #loader img{
+        margin-left: 300px;
+       }
+
+       @media only screen and (max-device-width: 500px){
+        #loader{
+        width: 100%;
+        height: 200vh;
+        margin:0px;
+        }
+
+         #loader img{
+        margin-left: 250px;
+        margin-top: 800px;
+       }
+       }
+
+
+
+
+
+
+
+    /*  MAIN WEBSITE CODE  */
+
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+*{
+	margin: 0px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.main{
+	padding: 0px;
+	margin:0px;
+}
+
+#imag{
+	background-image: url("ab.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:660px;
+    font-family: Verdana;
+    background-attachment: fixed;
+}
+
+#imag {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	text-shadow: 7px 7px 8px black;
+}
+
+#imag h1{
+	padding: 30px;
+	padding-top: 130px;
+}
+
+#imag p{
+	font-size: 120px;
+}
+
+
+.head{
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 35px;
+	box-sizing: border-box;
+	top: 0px;
+	display: block;
+}
+
+
+
+
+.head a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 40px;
+    padding-bottom: 35px;
+
+}
+.head a:hover{
+	color: #ccd9ff;
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+                  /*  CONTENT CSS  */
+
+    #introimage{
+	background-image: url("intro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:940px;
+    font-family: Century Gothic;
+    background-attachment: fixed;
+    }              
+
+    #introcontent{
+    	
+        position: absolute;
+        height: 530px;
+         padding: 100px 240px 70px 140px;
+         margin: 120px 120px 130px 120px;
+    	background-color: white;
+    	 	box-shadow: 5px 7px 19px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.20);
+    }
+     #introcontent h1{
+     	padding-bottom: 50px;
+     	font-size: 40px;
+     }
+
+    #introcontent p{
+    	    font-family: Mulish;
+    	    font-size: 20px;
+    	    color:  #595959;
+    	    padding-top: 30px;
+
+    }
+
+
+
+
+
+
+
+
+
+            /*   WHAT IS B.VOC ?  */
+
+    #bvoc{
+    	height: 1050px;
+    	background-color: white;
+    	padding: 70px 150px 80px 150px;
+
+
+    }
+
+    #h-icon img{
+    	height: 140px;
+    	padding-top: 10px;
+    }
+   
+
+
+    #bvoc h1{
+    	font-family: Century Gothic;
+    	text-align: center;
+    	font-size: 50px;
+    	padding: 50px;
+    }
+
+    #bvoc p{
+    	font-family: Mulish;
+    	padding: 10px 0px 10px 0px;
+    }
+    
+    #bvocdata{
+    	font-size: 20px;
+    	padding: 20px;
+    }
+    #bvoc li{
+    	text-align: justify;
+    	font-family: Mulish;
+    	padding-top: 10px;
+    	font-size: 18px;
+
+    }
+    #bvoclist{
+    	width: 600px;
+    }
+
+    #bvoc hr{
+    	width: 1100px;
+    	margin: auto;
+    }
+
+#bvocimage img{
+	float: right;
+	height: 300px;
+}
+
+#bvoc-last{
+	width: 800px;
+	height: 60px;
+	padding: 20px;
+	margin: 40px 100px 30px 110px;
+	font-family: Century Gothic;
+    background: orange;
+	border-radius: 45px;
+	box-shadow: 5px 4px 5px 0 rgba(0, 0, 0, 0.4), 0 5px 10px 0 rgba(0, 0, 0, 0.20);
+
+}
+#bvoc-last img{
+	height: 30px;
+}
+
+
+
+
+
+             /*    Awareness about B.VOC    */
+
+
+
+
+#awareness {
+    height: 900px;
+	background-color: #003366;
+}
+
+#a-heading{
+        font-family: Century Gothic;
+    	text-align: center;
+    	color: white;
+    	font-size: 25px;
+    	padding: 120px 0px 80px 0px;
+}
+
+#list{
+	margin-left: 300px ;
+}
+
+#awareness .lists {
+	width: 700px;
+	font-family: Verdana;
+	margin: 30px;
+	background-color: white;
+	border: 4px solid black;
+	border-radius: 20px; 
+	padding: 20px;
+	box-shadow: 6px 6px 7px black;
+}
+
+.lists i{
+	font-size: 30px;
+}
+
+
+  
+
+
+
+             /*    NCT collges    */
+
+
+
+  #awareness2{
+  	height: 1100px;
+  } 
+  #listtext{
+      box-sizing: border-box;
+  }         
+  #text2 p{
+  	font-family: Mulish;
+  	font-size: 20px;
+  	margin: 70px 130px 70px 130px;
+
+  } 
+
+  #listimage{
+    background-image: url("n.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 700px;
+    width: 650px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #listimage h1{
+      padding-top: 300px;
+      color: white;
+      text-shadow: 3px 3px 3px black;
+  }
+
+  #listtext{
+  	width: 600px; 
+  	height: 650px;	
+    color: black;
+  	background-color:white;
+  	display: inline-block;
+  	float: right;
+  	padding-left: 30px;
+
+  }
+
+  #listtext table td{
+  	background-color: #f4f2f1;
+    width: 400px;
+    border-radius: 30px;
+  }
+
+ #listtext table {
+  border-collapse: collapse;
+  font-family: Century Gothic;
+}
+
+#listtext li{
+	padding: 4px;
+}
+
+#note1{
+	width: 850px;
+	height: 70px;
+	
+	padding: 10px 10px 30px 10px;
+	margin: 60px auto 70px auto;
+    background: orange;
+    border-radius: 45px;
+	text-align: center;
+	box-shadow: 5px 4px 5px 0 rgba(0, 0, 0, 0.4), 0 5px 10px 0 rgba(0, 0, 0, 0.20);
+	font-family: Century Gothic;
+
+}
+#note1 img{
+	height: 40px;
+}
+
+
+
+
+
+
+
+      /*    Other universities    */
+
+
+
+  #universities{
+  	height: 1070px;
+  	background-color: #f4f2f1;
+  }
+
+  #unidetails{
+  	font-family: Mulish;
+  	padding: 100px 270px 50px 120px;
+  	font-size: 20px;
+  }
+  #unidetails hr{
+  	width: 500px;
+  }
+  #unilist{
+  	display: flex;
+  }
+  #unilist table li{
+  	padding: 7px;
+
+  }
+  #unilist table th{
+      background-color: #1a8cff;
+    
+      }
+
+   #unilist table td{
+     background-color: white;
+
+   } 
+
+   #unilist table td{
+   	     box-shadow: 6px 6px 12px black;
+   }
+      #unilist table th{
+   	     box-shadow: 6px 6px 12px black;
+   }
+
+   #unilist table{
+   	padding-left: 140px;
+   }
+#special{
+     column-count: 2;
+	 column-rule-style: solid;
+	 column-rule-color: black;
+	 column-gap: 130px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+ #mar2{
+ 	background-image: url("marquee.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: arial;
+    height: 150px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    margin-top: 80px;
+ }
+
+ #mar2 #clic{
+ 	margin: 20px 0px 0px 600px ;
+
+ }
+
+
+    #clic{
+background-color: orange;   	
+border-radius: 40px;
+    	width: 140px;
+    	text-align: center;
+    	font-size: 20px;
+    	padding: 10px;
+    	margin-left: 30px;
+    	font-family: arial;
+    	box-shadow: 5px 7px 19px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.20);
+
+
+    }
+    #clic:hover{
+background: rgb(255,136,73);
+background: linear-gradient(143deg, rgba(255,136,73,1) 0%, rgba(244,158,19,1) 38%, rgba(249,126,61,1) 91%);     }
+ #clic a{
+ text-decoration: none;
+ }
+
+
+
+
+
+
+
+           /*    EXIT PLAN    */
+
+
+     #exit 
+     {
+     	height: 770px;
+     	display: flex;
+     }
+  
+ #exittext{
+ 	width: 430px;
+ 	height: 630px;
+ 	background-color: #b3c6ff;
+ 	padding: 70px;
+ }
+
+ #exittext p{
+ 	padding-top: 45px;
+ 	font-family: Mulish;
+ 	font-size: 20px;
+
+ }
+
+ #exittext h1{
+ 	font-family: Verdana;
+ 	padding: 80px 0px 65px 0px;
+ }
+
+ #exitimg{
+padding: 180px 0px 50px 40px;
+width: 700px;
+ }
+
+ #exitimg img{
+ 	width: 700px;
+ }
+
+ #exitimg p{
+font-family: Mulish;
+padding: 50px 10px 50px 0px;
+
+ }
+
+ #exitimg h3{
+ 	font-family: arial;
+ 	padding: 10px 0px 50px 0px;
+ }
+
+ #exitimg h3 img{
+ 	height: 40px;
+ 	width: 40px;
+  }
+
+ 
+
+
+
+
+
+       /*    Last footer    */
+
+
+
+ #lastup{
+ 	height: 300px;
+ 	color: white;
+ 	background-image: url("ab.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    background-attachment: fixed;
+
+ }
+ #lastup h1{
+ 	text-align: center;
+ 	font-family: Century Gothic;
+
+ }
+ #lastup img{
+ 	height: 120px;
+ 	padding: 80px 0px 10px 600px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /*         	RESPONSIVE Media Query          */
+
+
+
+ @media only screen and (max-device-width:500px)  {
+
+.main{
+  padding: 0px;
+  margin:0px;
+  width:1350px;
+}
+
+#imag{
+  background-image: url("ab2.jpg");
+    height:2450px;
+    width:1350px;
+}
+
+#imag {
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 7px 7px 8px black;
+}
+
+#imag h1{
+  padding:160px;
+  padding-top: 630px;
+}
+
+#imag p{
+  font-size: 330px;
+}
+
+
+.head{
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 75px;
+  box-sizing: border-box;
+  top: 0px;
+  display: block;
+}
+
+
+
+
+.head a{
+    text-decoration: none;
+    font-size: 40px;
+    padding: 50px;
+    padding-bottom: 35px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+                  /*  CONTENT CSS  */
+
+    #introimage{
+    height:2520px;
+    }              
+
+    #introcontent{
+      
+        position: absolute;
+        height: 1860px;
+        width:750px;
+         padding: 140px 140px 70px 140px;
+         margin: 190px 10px 130px 160px;
+
+    }
+     #introcontent h1{
+      padding-bottom: 50px;
+      font-size: 70px;
+     }
+
+    #introcontent p{
+          font-size: 43px;
+          padding-top: 30px;
+
+    }
+
+
+
+
+
+
+
+
+
+            /*   WHAT IS B.VOC ?  */
+
+    #bvoc{
+      height: 3240px;
+      padding: 120px 150px 80px 150px;
+
+
+    }
+
+    #h-icon img{
+      height: 290px;
+      padding-top: 10px;
+    }
+   
+
+
+    #bvoc h1{
+      text-align: center;
+      font-size: 80px;
+      padding: 50px;
+    }
+
+    #bvoc p{
+      padding: 10px 0px 10px 0px;
+    }
+    
+    #bvocdata{
+      font-size: 43px;
+      padding: 20px;
+    }
+    #bvoc li{
+      text-align: justify;
+      padding-top: 40px;
+      font-size: 43px;
+
+    }
+    #bvoclist{
+      width: 1000px;
+    }
+
+    #bvoc hr{
+      width: 1100px;
+      margin: auto;
+    }
+
+#bvocimage img{
+  float: none;
+  height: 800px;
+}
+
+#bvoc-last{
+  width: 1000px;
+  height: 80px;
+  padding: 40px;
+  margin: 80px 100px 30px 0px;
+  border-radius: 45px;
+  font-size:35px;
+}
+#bvoc-last img{
+  height: 30px;
+}
+
+
+
+
+
+             /*    Awareness about B.VOC    */
+
+
+
+
+#awareness {
+    height: 1800px;
+}
+
+#a-heading{
+      text-align: center;
+      font-size: 40px;
+      padding: 220px 0px 190px 0px;
+}
+
+#list{
+  margin-left: 150px ;
+}
+
+#awareness .lists {
+  width: 900px;
+  font-size:35px;
+  margin: 30px;
+  border: 4px solid black;
+  border-radius: 20px; 
+  padding: 50px;
+  box-shadow: 8px 8px 10px black;
+}
+
+
+.lists i{
+  font-size: 50px;
+}
+
+
+  
+
+
+
+             /*    NCT collges    */
+
+
+
+  #awareness2{
+    height: 2650px;
+  } 
+  #listtext{
+      box-sizing: border-box;
+  }         
+  #text2 p{
+    font-size: 41px;
+    margin: 200px 130px 100px 130px;
+
+  } 
+
+  #listimage{
+    background-image: url("n.jpg");
+    height: 1740px;
+    width: 650px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #listimage h1{
+      padding-top: 600px;
+      color: white;
+      text-shadow: 3px 3px 3px black;
+      font-size: 50px;
+  }
+
+  #listtext{
+    width: 600px; 
+    height: 650px;  
+    color: black;
+    display: inline-block;
+    float: right;
+    padding-left: 0px;
+
+  }
+
+  #listtext table td{
+    background-color: #f4f2f1;
+    width: 470px;
+    border-radius: 30px;
+  }
+
+ #listtext table {
+  border-collapse: collapse;
+  font-size: 30px;
+}
+
+#listtext li{
+  padding: 10px;
+}
+
+#note1{
+  width: 1050px;
+  height: 170px;
+  
+  padding: 0px 20px 30px 20px;
+  margin: 130px auto 70px auto;
+  border-radius: 45px;
+  text-align: center;
+  font-size: 30px;
+}
+#note1 img{
+  height: 70px;
+}
+
+
+
+
+
+
+
+      /*    Other universities    */
+
+
+
+  #universities{
+    height: 3550px;
+  }
+
+  #unidetails{
+    padding: 230px 270px 50px 120px;
+    font-size: 50px;
+  }
+  #unidetails hr{
+    width: 500px;
+  }
+  #unilist{
+    display:block;
+  }
+  #unilist table li{
+    padding: 18px;
+
+  }
+  #unilist table th{
+      background-color: #1a8cff;
+    
+      }
+
+   #unilist table td{
+     background-color: white;
+
+   } 
+
+   #unilist table td{
+         box-shadow: 9px 9px 19px black;
+   }
+      #unilist table th{
+         box-shadow: 9px 9px 19px black;
+   }
+
+   #unilist table{
+    padding-left: 70px;
+    margin-top:130px;
+    width:1270px;
+    font-size:32px;
+   }
+#special{
+     column-count: 2;
+   column-rule-style: solid;
+   column-rule-color: black;
+   column-gap: 130px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+ #mar2{
+  background-image: url("marquee.JPG");
+    height: 350px;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right:150px; 
+    margin-top: 230px;
+    font-size:45px;
+ }
+
+ #mar2 #clic{
+  margin: 30px 0px 0px 350px ;
+
+ }
+
+
+    #clic{
+      border-radius: 40px;
+      width: 340px;
+      text-align: center;
+      font-size: 50px;
+      padding: 30px;
+      margin-left: 0px;
+      margin-right: 00px;
+
+    }
+
+
+
+
+
+
+
+
+           /*    EXIT PLAN    */
+
+
+     #exit 
+     {
+      height: 3000px;
+      width: 1100px;
+      display: block;
+     }
+  
+ #exittext{
+  width: 1010px;
+  height: 1300px;
+  padding: 170px;
+ }
+
+ #exittext p{
+  padding-top: 45px;
+  font-size: 55px;
+
+ }
+
+ #exittext h1{
+  padding: 200px 0px 65px 0px;
+  font-size:100px;
+ }
+
+ #exitimg{
+padding: 180px 0px 50px 110px;
+width: 1100px;
+ }
+
+ #exitimg img{
+  width: 950px;
+  height:500px;
+ }
+
+ #exitimg p{
+padding: 50px 10px 50px 0px;
+font-size:45px;
+ }
+
+ #exitimg h3{
+  padding: 10px 0px 50px 10px;
+  font-size:45px;
+ }
+
+ #exitimg h3 img{
+  height: 70px;
+  width: 70px;
+  }
+
+ 
+
+
+
+
+
+       /*    Last footer    */
+
+
+
+ #lastup{
+  height: 400px;
+  width:1350px;
+ }
+ #lastup h1{
+  font-size:60px
+
+ }
+ #lastup img{
+  height: 200px;
+  padding: 80px 0px 10px 550px;
+ }
+ }
+
+
+

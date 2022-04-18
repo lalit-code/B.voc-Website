@@ -1,0 +1,1489 @@
+
+
+   /*   Pre loader code   */
+
+
+        #loader{
+        width: 100%;
+        height: 100vh;
+        background-color: #2f2e33;
+        position: fixed;
+        z-index: 99999;
+        margin:0px;
+        ;
+       
+        
+       }
+       #loader img{
+        margin-left: 300px;
+       }
+
+       @media only screen and (max-device-width: 500px){
+        #loader{
+        width: 100%;
+        height: 200vh;
+        margin:0px;
+        }
+
+         #loader img{
+        margin-left: 250px;
+        margin-top: 800px;
+       }
+       }
+
+
+
+
+
+
+
+    /*  MAIN WEBSITE CODE  */
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+*{
+	margin: 0px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.main{
+	padding: 0px;
+	margin:0px;
+}
+
+#imag{
+	background-image: url("copy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:660px;
+    font-family: Verdana;
+    background-attachment: fixed;
+}
+
+#imag {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	text-shadow: 7px 7px 8px black;
+}
+
+#imag h1{
+	padding: 30px;
+	padding-top: 130px;
+}
+
+#imag p img{
+  padding-top: 20px;
+	height: 220px;
+
+}
+
+
+.head{
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 35px;
+	box-sizing: border-box;
+	top: 0px;
+	display: block;
+}
+
+
+
+
+.head a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 40px;
+    padding-bottom: 35px;
+
+}
+.head a:hover{
+	color: #ccd9ff;
+	background-color: black;
+}
+
+
+
+
+
+
+
+                  /*  (MAIN CONTENT)  */
+
+                  /*  Introduction  SD  */
+
+    
+    #introbox{
+
+    }
+
+    #introbox #box1{
+    height: 600px;
+    background-color: white;
+    }
+
+    #introbox #box1 h1{
+      padding-top: 200px;
+      padding-left: 250px;
+      font-family: Century Gothic;
+    }
+
+    #introbox #box2{
+      height: 500px;
+      background-color: #000033;
+    }
+
+    #introbox #intro{
+      background-color: #f4f2f1;
+      box-sizing: border-box;
+      position: absolute;
+      top: 1000px;
+      left: 250px;
+      height: 600px;
+      width: 870px;
+      padding: 30px 90px 50px 90px;
+      box-shadow: 5px 5px 20px black;
+      
+    }
+    #introbox #intro p{
+      padding-top: 50px;
+      
+      font-family: Mulish;
+    font-size: 20px;
+    }
+
+    #intro-last{
+  width: 650px;
+  height: 65px;
+  padding: 20px;
+  margin-top: 70px;
+  background-color: orange;
+  border-radius: 45px;
+  font-family: Century Gothic;
+  box-shadow: 3px 4px 5px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.20);
+
+}
+#intro-last img{
+  height: 30px;
+}
+
+   
+
+
+
+          /*    Eligibilities of SD    */ 
+
+ #Eligibility{
+  height: 1100px;
+  background-color: #f4f2f1;
+ 
+ }
+
+ #elitext h1{
+    font-family: Century Gothic;
+    font-size: 33px;
+    padding: 150px 0px 60px 140px;
+
+ }
+
+ #elitext hr{
+  width: 400px;
+  margin-left: 140px;
+ }
+
+ #elitext p{
+    font-family: Mulish;
+    font-size: 20px;
+    margin: 80px 100px 60px 140px;
+    text-align: justify;
+ }
+
+ #elinote p{
+    font-family: verdana;
+    font-size: 17px;
+    margin: 50px 140px 60px 140px;
+    color: red;
+  }
+
+  #elinote h3{
+  font-family: arial;
+  padding: 10px 240px 50px 140px;
+ }
+
+ #elinote h3 img{
+  height: 40px;
+  width: 40px;
+  padding: 0px 10px 0px 00px;
+  }
+
+   #elitable{
+    display: flex;
+  }
+  #elitable table li{
+    padding: 10px;
+    text-align: center;
+
+  }
+  #elitable table th{
+      background-color: #1a8cff;
+    
+      }
+
+   #elitable table td{
+     background-color: white;
+        padding-right: 70px;
+
+   } 
+
+   #elitable table td{
+         box-shadow: 6px 6px 12px black;
+   }
+      #elitable table th{
+         box-shadow: 6px 6px 12px black;
+   }
+
+   #elitable table{
+    margin: 0px 120px 20px 0px;
+
+   }
+
+
+
+
+
+ #iplink{
+  background-image: url("n.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: arial;
+    height: 190px;
+    text-align: center;
+    color: white;
+    padding: 100px 200px 0px 200px;
+    margin-top: 80px;
+    background-attachment: fixed;
+ }
+
+
+ #iplink #clickk{
+  margin: 20px 0px 0px 370px ;
+
+ }
+
+
+    #clickk{
+      background-color:orange;
+      border-radius: 40px;
+      width: 190px;
+      text-align: center;
+      padding: 18px;
+      margin-left: 30px;
+      font-family: arial;
+      font-size: 20px;
+        box-shadow: 3px 4px 5px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.20);
+
+
+    }
+    #clickk:hover{
+      background-color: #cc8500;
+    }
+ #clickk a{
+ text-decoration: none;
+ }
+
+
+
+
+
+
+       /*    Comparision from BCA     */
+
+
+    #Comparision{
+      height: 2500px;
+      background-color: black;
+    }
+    #Comparision h1{
+      font-family: Verdana;
+      font-size: 30px;
+      padding: 170px 0px 50px 200px;
+      color: white;
+    }
+    #Comparision hr{
+      width: 400px;
+      margin: 0px 0px 0px 200px;
+    }
+
+
+    #Comparision #co1{
+      height: 420px;
+      width: 550px;
+      background-color: #003366;
+      color: white;
+      position: absolute;
+      margin-top: 120px;
+      left: 200px;
+      font-family: Mulish;
+      font-size: 20px;
+      padding: 80px 80px 80px 80px;
+    }
+
+    #co1 ol{
+      padding-left: 0px;
+      padding-top: 30px;
+    }
+
+    #Comparision #co2{
+      height: 440px;
+      width: 700px;
+      background-color: #b3d9ff;
+      padding: 80px 20px 10px 15px;
+      font-family: Mulish;
+      font-size: 17px;
+      position: absolute;
+      margin-top: 550px;
+      left: 500px;
+    }
+
+    #co2 table th{
+      background-color: black;
+      color: white;
+      border-radius: 30px;
+    }
+
+    #co2list{
+   column-count: 2;
+   column-rule-style: solid;
+   column-rule-color: black;
+   column-gap: 50px;
+
+    }
+
+   #co2list li{
+    padding-top: 16px;
+   }
+
+
+      #Comparision h2{
+      font-family: Verdana;
+      font-size: 20px;
+      padding: 1170px 0px 40px 200px;
+      color: white;
+    }
+
+
+
+
+      #review{
+        text-align: center;
+        padding: 90px;
+        background-image: url("about.jpg");
+        background-attachment: fixed;
+
+      }
+      #review img{
+        margin: 10px;
+        box-shadow: 5px 5px 5px black;
+        
+      }
+
+       #review img:hover{
+        height: 70%;
+        width: 70%;
+        box-shadow: 15px 15px 15px black;
+       }
+
+
+
+
+
+
+
+              /*    Scope and Placement    */
+
+
+   #scope{
+    height: 1500px;
+    background-color: #e6f2ff;
+
+   }
+
+       #scope h1{
+      font-family: Verdana;
+      font-size: 30px;
+      padding: 170px 0px 50px 130px;
+    }
+
+    #scope p{
+      font-family: Verdana;
+      font-size: 20px;
+      padding: 50px 150px 50px 130px;
+    }
+    #scope hr{
+      width: 400px;
+      margin: 0px 0px 0px 130px;
+    }
+
+
+
+
+
+    #scopelist{
+            
+    }
+
+    #scolist{
+      display: flex;
+      padding: 100px 0px 0px 100px;
+      font-family: arial;
+    }
+
+#scolist table li{
+      padding-top: 10px;
+}
+#scolist table li i{
+      padding-right: 10px;
+}
+
+#scolist table th{
+  box-shadow: 6px 6px 12px black;
+  background-color: blue;
+  color: white;
+}
+
+#scolist table td{
+  background-color: white;
+  box-shadow: 6px 6px 12px black;
+  padding-bottom: 40px;
+}
+
+#scolist table{
+  margin: 20px;
+}
+
+#scolist table:nth-child(2) {
+  margin-top: 250px;
+}
+#scolist table:nth-child(3) {
+  margin-top: 500px;
+}
+
+
+
+
+
+
+#job{
+  height: 1170px;
+}
+
+#job p{
+  padding: 180px 200px 50px 130px;
+}
+
+#job table th{
+  text-align: left;
+  background-color: orange;
+  color: white;
+  font-family: arial;
+}
+
+#job table{
+  margin: 110px;
+}
+
+
+#job table {
+  border-collapse: collapse;
+}
+
+#job table th {
+  border: 1px solid #e6f2ff;
+}
+#job table td {
+  border: 1px solid #e6f2ff;
+}
+
+
+#job table a{
+  text-decoration: none;
+  color: red;
+  font-family: arial;
+  font-weight: bold;
+}
+
+#job table td a:nth-child(4) {
+  color: red;
+}
+#job table a:hover{
+  color: #b32400;
+}
+#job table td:nth-child(4):hover{
+  background-color: #b3d9ff; 
+}
+
+
+#job table tr:nth-child(odd){
+  background-color: #e6f2ff;
+}
+
+#job table td:nth-child(1){
+    font-weight: bold;
+      font-family: arial;
+
+}
+
+
+
+
+
+
+
+
+
+
+          /*     PLACEMENT     */
+
+
+
+  #comp{
+    height: 700px;
+    background-color:#e6ecff;
+        box-shadow: 3px 4px 5px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.20);
+
+  }
+
+  #comp #jobimg img{
+     height: 700px;
+     width: 500px;
+  }
+
+#comp #comptext{
+      width: 1000px;
+      position: absolute;
+      left: 230px;
+      top: 8050px;
+      background-color: black;
+      color: white;    
+}
+
+#comp #comptext p{
+  padding: 80px;
+}
+#pp{
+  background-color: white;
+}
+
+#comptext h1{
+  padding: 50px;
+  margin: 0px;
+}
+#com{
+  display: flex;
+}
+#com p{
+  padding: 200px 50px 50px 100px;
+}
+#com img{
+  height: 400px;
+  margin: 100px 100px 50px 100px;
+}
+
+
+
+
+
+#com-last{
+  width: 850px;
+  height: 95px;
+  padding: 20px ;
+  margin: 40px 0px 50px 250px;
+  background-color: orange;
+  border-radius: 45px;
+  display: flex;
+    box-shadow: 3px 4px 5px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.20);
+
+}
+
+#com-last img{
+  height: 40px;
+}
+#com-last p{
+  padding: 10px;
+  font-family: Century Gothic;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+          /*    After B.voc (Further studies)    */
+
+    #further{
+      height: 2650px;
+      background-color: #e6f7ff;
+    }
+
+
+    #furtext h1{
+      padding-top: 70px;
+      font-size: 20px;
+    }
+
+      #furtext p{
+      padding-top: 0px;
+      font-size: 20px;
+      margin: 0px;
+    }
+    #further img{
+      position: absolute;
+      left: 900px;
+      top: 9500px;
+
+    }
+
+
+
+    #fur1{
+       height: 220px;
+       width: 520px;
+        background: rgb(81,13,110);
+        background: linear-gradient(147deg, rgba(81,13,110,1) 0%, rgba(26,5,65,1) 67%);
+        color: white;
+       font-family: Trebuchet MS;
+       padding: 50px;
+       margin-top: 40px;
+       font-size: 20px;
+       display: flex;
+
+       margin-left: 120px;
+      box-shadow: 3px 4px 5px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.20);
+
+    }
+    #fur1 i{
+      font-size: 30px;
+      padding-right: 10px;
+    }
+    #fur1-link{
+      text-decoration: none;
+      text-align: center;
+      padding-top: 40px;
+
+    }
+    #fur1-link a{
+    background-color: orange;
+    text-decoration: none;
+    font-family: Verdana;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 10px;
+    }
+    #fur1-link a:hover{
+      background-color: #cc8500;
+    }
+
+
+
+
+    #fur2{
+       height: 300px;
+       width: 520px;
+       background: rgb(81,13,110);
+      background: linear-gradient(147deg, rgba(81,13,110,1) 0%, rgba(26,5,65,1) 67%);
+      color: white;       
+      font-family: Trebuchet MS;
+       padding: 50px;
+       font-size: 20px;
+       display: flex;
+          
+       margin-left: 420px;
+       margin-top: 20px;
+         box-shadow: 3px 4px 5px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.20);
+
+    }
+
+    #fur2 h4{
+    background: black;
+    color: white;     
+     padding: 20px;
+      border-radius: 30px;
+    }
+      #fur2 i{
+      font-size: 30px;
+      padding-right: 10px;
+    }
+
+
+
+
+    #fur3{
+       height: 260px;
+       width: 500px;
+        background: rgb(81,13,110);
+        background: linear-gradient(147deg, rgba(81,13,110,1) 0%, rgba(26,5,65,1) 67%);
+        color: white;       font-family: Trebuchet MS;
+       padding: 70px 50px 50px 50px;
+       font-size: 20px;
+       display: flex;
+
+       margin-left: 120px;
+       margin-top: 20px;
+         box-shadow: 3px 4px 5px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.20);
+
+    }
+      #fur3 i{
+      font-size: 30px;
+      padding-right: 10px;
+    }
+
+
+       #fur4{
+       height: 200px;
+       width: 500px;
+        background: rgb(81,13,110);
+        background: linear-gradient(147deg, rgba(81,13,110,1) 0%, rgba(26,5,65,1) 67%);
+        color: white;       font-family: Trebuchet MS;
+       padding: 90px 50px 50px 50px;
+       font-size: 20px;
+       display: flex;
+
+       margin-left: 420px;
+       margin-top: 20px;
+         box-shadow: 5px 6px 7px 0 rgba(0, 0, 0, 0.4), 0 5px 7px 0 rgba(0, 0, 0, 0.20);
+
+    }
+      #fur4 i{
+      font-size: 30px;
+      padding-right: 10px;
+    }
+    #furhr hr{
+      width: 1070px;
+      margin-top: 80px;
+      margin-bottom: 40px;
+    }
+
+
+
+
+ 
+    #furtable table{
+      width: 100%;
+    }
+    #furtable table td{
+   column-count: 2;
+   column-rule-style: solid;
+   column-rule-color: black;
+   column-gap: 50px;
+    }
+#furtable i{
+  font-size: 40px;
+  padding-right: 10px;
+}
+    #furtable table li{
+      padding: 10px;
+    }
+     #furtable table th{
+      background-color: orange;
+      box-shadow: 5px 5px 5px black;
+        font-family: Century Gothic;
+
+
+     }
+      #furtable table td{
+        background-color: white;
+        box-shadow: 5px 5px 5px black;
+      }
+
+
+
+
+
+
+
+
+      /*    Last Footer    */
+    #fur-lastup{
+  height: 300px;
+  color: white;
+  background-image: url("copy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    background-attachment: fixed;
+
+ }
+ #fur-lastup h3{
+  text-align: center;
+  font-size: 50px;
+  font-family: Century Gothic;
+
+ }
+ #fur-lastup img{
+  height: 120px;
+  padding: 70px 0px 10px 600px;
+ }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       @media only screen and (max-device-width: 500px){
+
+
+.main{
+  padding: 0px;
+  margin:0px;
+  width:1380px;
+}
+
+#imag{
+  background-image: url("copy.jpg");
+    height:2460px;
+}
+
+#imag {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  text-shadow: 7px 7px 8px black;
+}
+
+#imag h1{
+  padding: 30px;
+  padding-top: 680px;
+}
+
+#imag p img{
+  padding-top: 20px;
+  height: 320px;
+
+}
+
+
+.head{
+  padding: 75px;
+}
+
+
+
+
+.head a{
+    font-size: 40px;
+    padding: 50px;
+    padding-bottom: 35px;
+
+}
+.head a:hover{
+  color: #ccd9ff;
+  background-color: black;
+}
+
+
+
+
+
+
+
+                  /*  (MAIN CONTENT)  */
+
+                  /*  Introduction  SD  */
+
+    
+    #introbox{
+
+    }
+
+    #introbox #box1{
+    height: 1200px;
+    }
+
+    #introbox #box1 h1{
+      padding-top: 440px;
+      padding-left: 200px;
+      font-family: Verdana;
+      font-size:65px;
+    }
+
+    #introbox #box2{
+      height: 1300px;
+    }
+
+    #introbox #intro{
+      top: 3200px;
+      left: 200px;
+      height: 1500px;
+      width: 970px;
+      padding: 50px 90px 50px 90px;
+      
+    }
+    #introbox #intro p{
+      padding-top: 50px;
+      
+      font-family: Mulish;
+    font-size: 45px;
+    }
+
+    #intro-last{
+  width: 720px;
+  height: 235px;
+  padding: 40px;
+  font-size:38px;
+}
+#intro-last img{
+  height: 80px;
+}
+
+   
+
+
+
+          /*    Eligibilities of SD    */ 
+
+ #Eligibility{
+  height: 3200px; 
+ }
+
+ #elitext h1{
+    font-size: 70px;
+    padding: 250px 0px 60px 140px;
+
+ }
+
+ #elitext hr{
+  width: 1100px;
+ }
+
+ #elitext p{
+    font-size: 57px;
+    margin: 80px 130px 60px 140px;
+ }
+
+ #elinote p{
+    font-size: 17px;
+    margin: 50px 140px 60px 140px;
+  }
+
+  #elinote h3{
+  padding: 120px 240px 50px 180px;
+  font-size:45px;
+ }
+
+ #elinote h3 img{
+  height: 100px;
+  width: 100px;
+  padding: 0px 10px 0px 00px;
+  }
+
+   #elitable{
+    display: block;
+  }
+  #elitable table li{
+    padding: 30px;
+    font-size:44px;
+
+  }
+  #elitable table th{
+      font-size:60px;
+      padding:60px;
+      }
+
+
+   #elitable table td{
+         box-shadow: 10px 10px 22px black;
+   }
+      #elitable table th{
+         box-shadow: 10px 10px 22px black;
+   }
+
+   #elitable table{
+    margin: 160px 120px 20px 180px;
+    width:1000px;
+
+   }
+
+
+
+
+
+ #iplink{
+    font-size:48px;
+    height: 420px;
+    padding: 100px 200px 0px 200px;
+    margin-top: 80px;
+ }
+
+
+ #iplink #clickk{
+  margin: 50px 0px 0px 270px ;
+
+ }
+
+
+    #clickk{
+      width: 460px;
+      padding: 20px;
+      margin-left: 30px;
+      font-family: arial;
+      font-size: 45px;
+
+    }
+
+
+
+
+
+
+       /*    Comparision from BCA     */
+
+
+    #Comparision{
+      height: 5860px;
+    }
+    #Comparision h1{
+      font-size: 60px;
+      padding: 270px 0px 50px 200px;
+    }
+    #Comparision hr{
+      width: 500px;
+      margin: 70px 0px 50px 200px;
+    }
+
+
+    #Comparision #co1{
+      height: 980px;
+      width: 820px;
+      margin-top: 120px;
+      left: 150px;
+      font-size: 50px;
+      padding: 120px;
+      border-radius:30px;
+      box-shadow: 5px 5px 50px white;
+    }
+
+    #co1 ol{
+      padding-left: 0px;
+      padding-top: 30px;
+    }
+
+    #Comparision #co2{
+      height: 1100px;
+      width: 1100px;
+      padding: 80px 40px 10px 45px;
+      font-size: 45px;
+      margin-top: 1550px;
+      left: 80px;
+    }
+
+    #co2 table th{
+      border-radius: 50px;
+    }
+
+
+
+   #co2list li{
+    padding-top: 59px;
+   }
+
+
+      #Comparision h2{
+      font-size: 50px;
+      padding: 3070px 100px 40px 200px;
+    }
+
+
+
+
+      #review{
+        padding: 210px 0px 0px 0px;
+        height:1700px;
+        background-image: url("copy.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size:cover;
+
+      }
+      #review img{
+        margin: 50px;
+        height:250px;
+        box-shadow: 15px 15px 15px black;
+
+        
+      }
+
+       #review img:hover{
+        height: 10%;
+        width: 10%;
+        box-shadow: 20px 20px 25px black;
+       }
+
+
+
+
+
+
+
+              /*    Scope and Placement    */
+
+
+   #scope{
+    height: 4750px;
+   }
+
+       #scope h1{
+      font-size: 80px;
+      padding: 270px 0px 130px 130px;
+    }
+
+    #scope p{
+      font-family: Verdana;
+      font-size: 50px;
+    }
+    #scope hr{
+      width: 700px;
+      margin: 150px 0px 0px 130px;
+    }
+
+
+
+
+
+    #scopelist{
+            
+    }
+
+    #scolist{
+      display: block;
+      padding: 150px 0px 0px 200px;
+      font-size:45px;
+    }
+
+#scolist table li{
+      padding-top: 30px;
+}
+#scolist table li i{
+      padding-right: 15px;
+
+}
+
+#scolist table th{
+  box-shadow: 8px 8px 16px black;
+  padding:40px;
+}
+
+#scolist table td{
+  background-color: white;
+  box-shadow: 8px 8px 16px black;
+  padding: 80px;
+}
+
+#scolist table{
+  margin: 20px;
+}
+
+#scolist table:nth-child(2) {
+  margin-top: 220px;
+}
+#scolist table:nth-child(3) {
+  margin-top: 200px;
+}
+
+
+
+
+
+
+#job{
+  height: 4870px;
+}
+
+#job p{
+  padding: 480px 130px 0px 130px;
+}
+
+#job table th{
+  text-align: left;
+}
+
+#job table{
+  margin: 120px;
+  width:600px;
+  font-size:45px;
+}
+
+
+
+
+
+
+          /*     PLACEMENT     */
+
+
+
+  #comp{
+    height: 2700px;
+    background-color:#e6ecff;
+  }
+
+  #comp #jobimg img{
+     height: 1700px;
+     width: 1350px;
+
+  }
+
+#comp #comptext{
+      width: 1200px;
+      height:1300px;
+      left: 80px;
+      top: 24550px;
+      box-shadow:8px 8px 9px black;
+}
+
+#comp #comptext p{
+  padding: 100px;
+}
+
+#comptext h1{
+  padding: 242px 0px 60px 130px;
+}
+#com{
+  display: block;
+}
+#com p{
+  padding: 200px 100px 50px 100px;
+}
+#com img{
+  height: 700px;
+  margin: 140px 100px 100px 100px;
+}
+
+
+
+
+
+#com-last{
+  width: 1000px;
+  height: 390px;
+  padding: 30px ;
+  margin: 40px 0px 50px 150px;
+  border-radius: 45px;
+  display: flex;
+}
+
+#com-last img{
+  height: 90px;
+}
+#com-last p{
+  padding: 20px;
+  font-family: arial;
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+          /*    After B.voc (Further studies)    */
+
+    #further{
+      height: 6900px;
+    }
+
+
+    #furtext h1{
+      padding-top: 90px;
+      font-size: 60px;
+    }
+
+      #furtext p{
+      padding-top: 0px;
+      padding-bottom:150px;
+      font-size: 50px;
+    }
+    #further img{
+      left: 990px;
+      top: 28140px;
+
+    }
+
+
+
+    #fur1{
+       height: 620px;
+       width: 860px;
+       font-family: arial;
+       padding: 70px;
+       margin-top: 40px;
+       font-size: 45px;
+       display: flex;
+
+       margin: 0px 0px 80px 70px;
+    }
+    #fur1 i{
+      font-size: 80px;
+      padding-right: 10px;
+    }
+    #fur1-link{
+      text-decoration: none;
+      text-align: center;
+      padding-top: 40px;
+
+
+    }
+    #fur1-link a{
+    padding: 5px;
+    margin-left: 50px;
+    }
+
+
+
+
+
+    #fur2{
+       height: 900px;
+       width: 820px;
+       background-color: blue;
+       font-family: arial;
+       padding: 50px;
+       font-size: 45px;
+       display: flex;
+          
+       margin: 0px 70px 80px 350px;
+
+    }
+
+    #fur2 h4{
+      background-color: #99bbff;
+      padding: 20px;
+      border-radius: 30px;
+    }
+      #fur2 i{
+      font-size: 90px;
+      padding-right: 10px;
+    }
+
+
+
+
+    #fur3{
+       height: 760px;
+       width: 800px;
+       padding: 90px 80px 50px 50px;
+       font-size: 45px;
+       display: flex;
+
+       margin:0px 0px 80px 80px;
+    }
+      #fur3 i{
+      font-size: 90px;
+      padding-right: 10px;
+    }
+
+
+       #fur4{
+       height: 600px;
+       width: 700px;
+       background-color: brown;
+       font-family: arial;
+       padding: 90px 80px 50px 50px;
+       font-size: 45px;
+       display: flex;
+
+       margin:0px 0px 120px 420px;
+    }
+      #fur4 i{
+      font-size: 90px;
+      padding-right: 10px;
+    }
+    #furhr hr{
+      width: 1070px;
+      margin-top: 200px;
+      margin-bottom: 150px;
+    }
+
+
+
+
+ 
+    #furtable table{
+      width: 100%;
+    }
+    #furtable table td{
+   column-count: 2;
+   column-rule-style: solid;
+   column-rule-color: black;
+   column-gap: 50px;
+    }
+#furtable i{
+  font-size: 90px;
+  padding-right: 10px;
+}
+    #furtable table li{
+      padding: 50px;
+      font-size:40px;
+    }
+     #furtable table th{
+      box-shadow: 5px 5px 5px lack;
+      font-size:40px;
+     }
+ 
+
+
+
+
+
+
+
+
+      /*    Last Footer    */
+
+      #fur-lastup{
+  height: 400px;
+
+ }
+ #fur-lastup h3{
+  font-size: 70px;
+
+ }
+ #fur-lastup img{
+  height: 120px;
+  padding: 100px 0px 10px 600px;
+ }
+    
+
+       }
